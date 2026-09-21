@@ -1,0 +1,24 @@
+Docker is used to bundle an application and all its required dependencies into a single lightweight package, called a container, so that the software runs consistently across any computer environment.
+
+-->  It effectively eliminates the common "it works on my machine" problem by ensuring that development, testing, and production setups are identical.
+
+--> Docker wraps your application and everything it needs to run into a neat, standardized package called a container.
+
+--> windows user developed an application. Now, new mac-user comes and want to do changes. so he want to replicate the entire application into his own system so that he can also work on the same application.
+   
+The mac user installs the dependencies manually one by one which can lead to manual errors like:
+i) Every real life application has a lot of dependencies.(which takes a lot time install manually)
+ii) the specific version of the dependencies should be installed
+     ex: developed application: node: v16, expres: 3.12.11 ,....
+iii) command-line-interface commands ---> differ from windows , mac ...
+--> these problems could encountered not only in local environment but also in production level environment.
+
+"IT works on my machine" --> common problem that encounters.
+
+--> Docker helps us to build Containers & Images.
+--> Docker Container: It's a single bundle/ unit contains application along with all dependencies needed to run that application.
+         Container = single-unit of [application + dependencies]. i.e. replicating the application over different machines with different OS becomes easy.
+
+A Docker container is a lightweight, standalone, and executable package of software that includes everything needed to run an application. It bundles your application code, runtime, system tools, libraries, and configurations into a single standardized unit. This ensuring that the application runs quickly, safely, and consistently across any computing environment, eliminating the classic "it works on my machine" problem.
+
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
